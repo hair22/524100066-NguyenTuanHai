@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ hàng | Fashionista</title>
+  <link rel="icon" href="Media/Logo.PNG" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container header-content">
+    <img src="Media/Logo.PNG" class="logo">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="sanpham.html">Sản phẩm</a></li>
+        <li><a href="giohang.html" class="active">Giỏ hàng</a></li>
+        <li><a href="tinhoatdong.html">Tin hoạt động</a></li>
+        <li><a href="lienhe.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="container cart-section">
+  <h1>Giỏ hàng của bạn</h1>
+  <form>
+    <table class="cart-table">
+      <tr>
+        <th>Sản phẩm</th>
+        <th>Giá</th>
+        <th>Số lượng</th>
+        <th>Tổng</th>
+      </tr>
+      <tr>
+        <td>Áo polo Lacoste chữ cổ</td>
+        <td>299,000</td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>₫299,000</td>
+      </tr>
+      <tr>
+        <td>Bộ Mancheter United</td>
+        <td>₫600,000</td>
+        <td><input type="number" value="2" min="1"></td>
+        <td>₫1,200,000</td>
+      </tr>
+    </table>
+
+    <h3>Thông tin thanh toán</h3>
+    <table class="info-table">
+      <tr>
+        <td>Họ tên:</td>
+        <td><input type="text" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" required></td>
+      </tr>
+      <tr>
+        <td>Địa chỉ:</td>
+        <td><input type="text" required></td>
+      </tr>
+      <tr>
+        <td>Phương thức thanh toán:</td>
+        <td>
+          <select>
+            <option>Thanh toán khi nhận hàng</option>
+            <option>Chuyển khoản ngân hàng</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+
+    <button type="submit" class="btn">Xác nhận đặt hàng</button>
+  </form>
+</section>
+
+<footer>
+  <div class="container footer-content">
+    <p>© hair.store22 | Nguyễn Tuấn Hải - MSSV: 524100066</p>
+  </div>
+</footer>
+</body>
+</html>
